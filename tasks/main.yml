@@ -6,6 +6,6 @@
 
 - name: Setup root user
   mysql_user: 
-    name: "{{ mysql_root_user }}"
+    name: root
     password: "{{ mysql_root_password }}"
   ignore_errors: yes
